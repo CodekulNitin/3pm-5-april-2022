@@ -1,0 +1,25 @@
+body {
+    font-family: "Anek Odia", sans-serif;
+    background-color: darkgoldenrod;
+  }
+  h1 {
+    color: chartreuse;
+    background-color: black;
+  }
+  h2 {
+    background-color: cadetblue;
+    color: #fff;
+  }
+  img {
+    border-radius: 5%;
+  }
+  a {
+    background-color: black;
+    padding: 10px;
+  }
+  p{
+      background-color: crimson;
+      color: black;
+      border-radius: 20px;
+      padding: 10px;
+  }
