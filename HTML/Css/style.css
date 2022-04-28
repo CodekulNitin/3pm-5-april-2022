@@ -2,10 +2,13 @@ li {
   list-style: none;
 }
 nav {
+  position: fixed;
+  width: 97.5%;
   display: flex;
   gap: 20px;
+  z-index: 1000;
   align-items: center;
-  background-color: #515ddb ;
+  background-color: transparent ;
   justify-content: space-between;
 }
 ul img {
@@ -32,6 +35,7 @@ ul a button {
 }
 header{
     display: flex;
+    width: 100%;
     background-color:#515ddb;
 
 }
@@ -64,5 +68,5 @@ input{
 }
 #block2img{
     position: relative;
-    left: 200px;
+    left: 100px;
 }

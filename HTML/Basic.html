@@ -6,31 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      li {
-        list-style:symbols("*");
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
       }
-      ::marker {
-        color: orange;
+      th {
+        background-color: aqua;
       }
     </style>
   </head>
   <body>
-    <ul>
-      <li>Tea</li>
-      <li>Coffee</li>
-      <li>Milk</li>
-    </ul>
-    <ol>
-      <li>Tea</li>
-      <li>Coffee</li>
-      <li>Milk</li>
-
-    </ol>
-    <video controls>
-        <source
-          src="Janani - RRR Video Song_HD-(HDvideo9).mp4"
-          type="video/mp4"
-        />
-      </video>
+    <table>
+      <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+      </tr>
+      <tr>
+        <th colspan="2">Schedul</th>
+        <th rowspan="2">Topic</th>
+      </tr>
+      <tr>
+        <th>Begin</th>
+        <th>end</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8:00am</td>
+        <td rowspan="2">11:00pm</td>
+        <td>introduction to xml</td>
+      </tr>
+      <tr>
+        <td>Validity DTD and RelaxNG</td>
+      </tr>
+      <tr>
+          
+      </tr>
+    </table>
   </body>
 </html>
